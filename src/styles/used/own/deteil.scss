@@ -1,0 +1,38 @@
+// @import "../../action/element/yo-loading.scss";
+.deteil{
+  @include flexbox();
+  @include flex-direction(column);
+  @include flex(1);
+  background: #000;
+  width:100%;
+  height:100%;
+  header{
+        background: #000 !important;
+
+  }
+  section{
+    background: #000;
+    @include flex(1);
+    @include flexbox();
+    @include flex-direction(column);
+    width:100%;
+    .swiper-container{
+      img{width:100%; margin-top:50%;}
+    }
+  }
+  footer{
+    background: #000;
+    height:.60rem;
+    ul{
+      @include border(0 0 0 0, #000);
+      li{
+        @include flex-direction();
+        img{
+          width:0.26rem;
+          padding-right:.1rem;
+        }
+      }
+    }
+
+  }
+}

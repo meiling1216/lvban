@@ -1,0 +1,17 @@
+// @import "../../action/widget/yo-dialog";
+// @include yo-dialog(
+// $name:a,
+// $height:2rem
+// ){
+//   footer button:first-child{
+//     color:red!important;
+//   }
+//   footer button:last-child{
+//     color: green !important;
+//   }
+// };
+.menu{
+  width:100%;
+  overflow: hidden;
+  background: #fff;
+}

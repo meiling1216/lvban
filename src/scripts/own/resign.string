@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>注册</title>
+</head>
+<body>
+  <div class="m-home">
+      <header>
+        <ul>
+          <li action-type="return"><img src="images/article_back_ios7__pink.png"/></li>
+          <li>注册</li>
+          <li></li>
+        </ul>
+      </header>
+      <section>
+        <div class="resign">
+          <h3>你的手机号：</h3>
+          <input class="txt" type="text" placeholder="请输入手机号"/>
+          <h4>*其他人不会看到你的手机号*</h4>
+          <input action-type="send" class="btn" type="button" value="发送验证码"/>
+        </div>
+      </section>
+      <div class="bd">
+        请输入手机号
+      </div>
+  </div>
+</body>
+</html>

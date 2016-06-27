@@ -1,0 +1,97 @@
+
+    <header>
+      <ul>
+        <li><img src="images/list_ios7__pink.png"/></li>
+        <li>图说&微游记</li>
+        <li><img src="images/postnew__ios7__blue.png" alt=""></li>
+        <li action-type="new"><img src="images/refresh__ios7__blue.png"/></li>
+      </ul>
+    </header>
+
+    <section  spa-widget="scroll" data-scroll-id="scroll2">
+      <div class="boxs">
+        <div class="head">
+          <img src="images/ptr_pulltorefresh_arrow.png"/><b>刷新</b>
+        </div>
+        <div class="swiper-container" id="pictalk-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" >
+              <img src="images/21.jpg"/>
+              <p>贝加尔湖</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/25.jpg"/>
+              <p>西藏</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/22.jpg"/>
+              <p>三峡</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/23.jpg"/>
+              <p>贝加尔湖</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/24.jpg"/>
+              <p>贝加尔湖</p>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="list">
+          <dl>
+            <dt>我的三峡行</dt>
+            <dd>
+              <img src="images/22.jpg"/>
+              <div></div>
+              <img src="images/23.jpg"/>
+              <div></div>
+              <img src="images/24.jpg"/>
+            </dd>
+            <span>2015-01-23<img src="images/tiny_hits__ios7__pink.png"/><i></i></span>
+          </dl>
+        </div>
+        <div class="list">
+          <dl>
+            <dt>我的三峡行</dt>
+            <dd>
+              <img src="images/22.jpg"/>
+              <div></div>
+              <img src="images/23.jpg"/>
+              <div></div>
+              <img src="images/24.jpg"/>
+            </dd>
+            <span>2015-01-23<img src="images/tiny_hits__ios7__pink.png"/><i></i></span>
+          </dl>
+        </div>
+        <div class="list">
+          <dl>
+            <dt>我的三峡行</dt>
+            <dd>
+              <img src="images/22.jpg"/>
+              <div></div>
+              <img src="images/23.jpg"/>
+              <div></div>
+              <img src="images/24.jpg"/>
+            </dd>
+            <span>2015-01-23<img src="images/tiny_hits__ios7__pink.png"/><i></i></span>
+          </dl>
+        </div>
+        <div class="list">
+          <dl>
+            <dt>我的三峡行</dt>
+            <dd>
+              <img src="images/22.jpg"/>
+              <div></div>
+              <img src="images/23.jpg"/>
+              <div></div>
+              <img src="images/24.jpg"/>
+            </dd>
+            <span>2015-01-23<img src="images/tiny_hits__ios7__pink.png"/><i></i></span>
+          </dl>
+        </div>
+        <div class="foot">
+          <img src="images/ptr_pulltorefresh_arrow.png"/><b>更多</b>
+        </div>
+    </div>
+    </section>

@@ -1,0 +1,113 @@
+// .m-content{
+//   @include flex(1);
+//   width:100%;
+//   @include flexbox();
+//   @include flex-direction(column);
+//   // @include justify-content(center);
+//   height:100%;
+//
+// }
+header{
+  width:100%;
+  height:0.44rem;
+  background:#ff606e;
+  ul{
+    @include flexbox();
+    width:100%;
+    height:100%;
+    color:#fff;
+    li{
+      height:100%;
+      line-height: 0.44rem;
+      text-align: center;
+      img{
+        width:70%;
+        height:70%;
+
+      }
+        &:nth-child(2){
+          font-size: .22rem;
+          @include flex(1);
+          width: 100%;
+          @include flexbox();
+          @include justify-content(center);
+      }
+    }
+  }
+}
+section{
+  background: #faf2f3;
+  @include flex(1);
+  width:100%;
+.sec{
+  width:100%;
+  @include flexbox();
+  @include justify-content(center);
+  height:100%;
+  ul{
+    @include flex(1);
+    @include box-sizing(border-box);
+    width:40%;
+    text-align: center;
+    padding:.04rem .04rem;
+    // margin-bottom: 0.06rem;
+    li{
+      position: relative;
+      img{
+        width:100%;
+        margin-top:0.06rem;
+
+      }
+      p{
+        display: block;
+        width:96%;
+        height:.50rem;
+        background: #000;
+        opacity: 0.6;
+        position: absolute;
+        bottom:0;
+        padding:2%;
+        img{
+          width:0.12rem;
+          float:left;
+          margin-top:0.32rem;
+        }
+        i{
+          color:#fff;
+          float:right;
+          margin-top:0.32rem;
+        }
+      }
+      span{
+        color:#fff;
+        float:left;
+        line-height: .20rem;
+        position: absolute;
+        bottom:0.32rem;
+        left:0.08rem;
+        z-index: 3;
+      }
+    }
+  }
+}
+.head,.foot{
+  margin-top:-.03rem;
+
+  img{
+    width:0.22rem;
+  }
+  b{
+    margin-left:1.56rem;
+    color:#cc7e76;
+  }
+  .turn{
+    @include transform(rotate(-180deg));
+    @include transition(all,1s);
+  }
+  .down{
+    @include transform(rotate(-180deg));
+    @include transition(all,1s);
+  }
+}
+
+}

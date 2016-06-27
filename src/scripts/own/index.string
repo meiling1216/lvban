@@ -1,0 +1,23 @@
+<div class="box">
+  <div class="m-content">
+      <!-- <header>
+        <ul>
+          <li><img src="images/list_ios7__pink.png"/></li>
+          <li>驴伴</li>
+          <li><img src="images/refresh__ios7__pink.png"/></li>
+        </ul>
+      </header>
+      <section>
+
+      </section> -->
+  </div>
+    <footer>
+      <ul>
+        <li class="active" action-type="switch.tabs" data-tag="home"><img class="none" src="images/nav_fix_article_cancel__ios7__pink.png"/><img  src="images/nav_fix_article_select__ios7__pink.png"><b>驴文</b></li>
+        <li action-type="switch.tabs" data-tag="find"><img src="images/nav_fix_chatting_cancel__ios7__pink.png"/><img class="none" src="images/nav_fix_chatting_select__ios7__pink.png"/><b>发现</b></li>
+        <li action-type="switch.tabs" data-tag="search"><img src="images/nav_fix_search_cancel__ios7__pink.png"/><img class="none" src="images/nav_fix_search_select__ios7__pink.png"/><b>搜索</b></li>
+        <li action-type="switch.tabs" data-tag="my"><img src="images/nav_fix_vip_cancel__ios7__pink.png"/><img class="none" src="images/nav_fix_vip_select__ios7__pink.png"/><b>我</b></li>
+        <li action-type="switch.tabs" data-tag="more"><img src="images/nav_fix_more_cancel__ios7__pink.png"/><img class="none" src="images/nav_fix_more_select__ios7__pink.png"/><b>更多</b></li>
+      </ul>
+    </footer>
+</div>

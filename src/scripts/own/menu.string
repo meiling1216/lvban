@@ -1,0 +1,9 @@
+<div class="menu">
+  <ul class="list">
+    <li class="pictalk"><img src="images/"/>图集</li>
+    <li class="lvji">找驴伴</li>
+    <li action-type="goto.pictalk">图说&微游记</li>
+    <li>驴记</li>
+    <li>攻略</li>
+  </ul>
+</div>

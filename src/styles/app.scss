@@ -1,0 +1,35 @@
+@charset "UTF-8";
+@import "./action/core/reset.scss";
+@import "./action/element/yo-loading.scss";
+// @import "./action/widget/yo-dialog.scss";
+@import "./used/com/swiper-3.3.1.min.css";
+
+
+
+spa-app {
+    position: absolute;
+    overflow: hidden;
+}
+
+spa-view {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #eceef0 !important;
+    @include flexbox(flex);
+    @include flex-direction(column);
+}
+
+@import "./used/own/home.scss";
+@import "./used/own/index.scss";
+@import "./used/com/common.scss";
+@import "./used/own/find.scss";
+@import "./used/own/more.scss";
+@import "./used/own/search.scss";
+@import "./used/own/deteil.scss";
+@import "./used/own/resign.scss";
+@import "./used/own/pictalk.scss";
+@import "./used/own/menu.scss";

@@ -1,0 +1,28 @@
+
+    <header>
+      <ul>
+        <li action-type="goto.menu"><img src="images/list_ios7__pink.png"/></li>
+        <li>驴伴</li>
+        <li action-type="new"><img src="images/refresh__ios7__pink.png"/></li>
+      </ul>
+    </header>
+
+    <section  spa-widget="scroll" data-scroll-id="scrolled">
+      <div>
+        <div class="head">
+          <img src="images/ptr_pulltorefresh_arrow.png"/><b>刷新</b>
+        </div>
+        <div class="sec">
+          <ul>
+            <li action-type="goto.deteil"  ms-repeat-value="livelist" ms-attr-data-id='value[0].id'><img ms-src="value[0].imgsrc[0]"/><span ms-text="value[0].title"></span><p><img src="images/tiny_hits__ios7__pink.png"/><i ms-text="value[0].num"></i></p></li>
+
+          </ul>
+          <ul>
+            <li action-type="goto.deteil" ms-repeat-value="livelist" ms-attr-data-id='value[1].id'><img ms-src="value[1].imgsrc[0]"/><span ms-text="value[1].title"></span><p><img src="images/tiny_hits__ios7__pink.png"/><i ms-text="value[1].num"></i></p></li>
+          </ul>
+        </div>
+        <div class="foot">
+          <img src="images/ptr_pulltorefresh_arrow.png"/><b>更多</b>
+        </div>
+    </div>
+    </section>

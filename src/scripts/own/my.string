@@ -1,0 +1,18 @@
+  <header>
+      <ul>
+        <li></li>
+        <li>登录</li>
+        <li><a href="">注册</a></li>
+      </ul>
+    </header>
+    <section>
+      <div class="login">
+        <h3>可用社交账号登录：</h3>
+        <a href=""><img src="images/share_sina.png"/>新浪微博登录</a>
+        <a href=""><img src="images/share_sina.png"/>腾讯微博登录</a>
+        <a href=""><img src="images/share_sina.png"/>人人网登录</a>
+        <a href=""><img src="images/share_sina.png"/>QQ登录</a>
+        <h3>注册登录：</h3>
+        <input class="btn" type="bottom" value="登录"/>
+      </div>
+    </section>
