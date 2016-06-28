@@ -9,6 +9,12 @@ SPA.defineView('menu', {
     // },
     'goto.pictalk':function(){
       SPA.open('pictalk')
+    },
+    'close':function(){
+      this.hide();
+    },
+    'goto.home':function(){
+      SPA.open('index')
     }
 
   }

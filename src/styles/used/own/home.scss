@@ -1,12 +1,4 @@
-// .m-content{
-//   @include flex(1);
-//   width:100%;
-//   @include flexbox();
-//   @include flex-direction(column);
-//   // @include justify-content(center);
-//   height:100%;
-//
-// }
+
 header{
   width:100%;
   height:0.44rem;
@@ -37,8 +29,10 @@ header{
 }
 section{
   background: #faf2f3;
+  // @include flexbox();
   @include flex(1);
   width:100%;
+  // height:100%;
 .sec{
   width:100%;
   @include flexbox();
@@ -50,7 +44,6 @@ section{
     width:40%;
     text-align: center;
     padding:.04rem .04rem;
-    // margin-bottom: 0.06rem;
     li{
       position: relative;
       img{
@@ -109,5 +102,7 @@ section{
     @include transition(all,1s);
   }
 }
-
+// .head{
+//   margin-top:-.28rem;
+// }
 }

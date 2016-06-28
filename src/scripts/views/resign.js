@@ -7,7 +7,10 @@ SPA.defineView('resign', {
         this.hide();
       },
       'send': function(){
-
+          $('.resign p').css('display',"block")
+          setTimeout(function(){
+            $('.resign p').css('display',"none")
+          },1000);
       }
     },
 });

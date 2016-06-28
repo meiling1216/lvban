@@ -2,6 +2,17 @@ var tplPictalk=require('../own/pictalk.string');
 SPA.defineView("pictalk",{
   html:tplPictalk,
   plugins:['delegated'],
+  bindActions:{
+    'goto.menu':function(){
+      SPA.open('menu',{
+        ani:{
+          name:'actionSheet',
+          distance:320,
+          autoHide:false
+        }
+      })
+    }
+  },
   bindEvents:{
     'beforeShow':function(){
       // var vm=this.getVM();
@@ -11,10 +22,11 @@ SPA.defineView("pictalk",{
     },
     'show':function(){
       var mySwiper = new Swiper ('.swiper-container', {
-        loop: false,
-        pagination: '.swiper-pagination'
-
+        loop:true,
+        pagination: '.swiper-pagination',
+        autoplay:2000,
       });
+
       //上拉刷新，下拉加载
       var scrollSize=50;
       var myScroll=this.widgets.scroll2;
