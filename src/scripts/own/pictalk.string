@@ -1,11 +1,7 @@
 
     <header>
       <ul>
-<<<<<<< HEAD
-        <li><img src="/lvban/images/list_ios7__pink.png"/></li>
-=======
         <li action-type="goto.menu"><img src="/lvban/images/list_ios7__pink.png"/></li>
->>>>>>> 20160628-lvban-login
         <li>图说&微游记</li>
         <li><img src="/lvban/images/postnew__ios7__blue.png" alt=""></li>
         <li action-type="new"><img src="/lvban/images/refresh__ios7__blue.png"/></li>
