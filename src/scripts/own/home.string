@@ -1,4 +1,5 @@
 
+  <div class="m-home" ms-visible="!isShowLoading">
     <header>
       <ul>
         <li action-type="goto.menu"><img src="/lvban/images/list_ios7__pink.png"/></li>
@@ -8,7 +9,7 @@
     </header>
 
     <section  spa-widget="scroll" data-scroll-id="scrolled">
-      <div>
+      <div class="all">
         <div class="head">
           <img src="/lvban/images/ptr_pulltorefresh_arrow.png"/><b>刷新</b>
         </div>
@@ -22,7 +23,11 @@
           </ul>
         </div>
         <div class="foot">
-          <img src="images/ptr_pulltorefresh_arrow.png"/><b>更多</b>
+          <img src="/lvban/images/ptr_pulltorefresh_arrow.png"/><b>更多</b>
         </div>
     </div>
     </section>
+  </div>
+  <div class="yo-loading" ms-visible="isShowLoading">
+      <div class="inner"><i class="yo-ico"></i><span>加载中</span></div>
+  </div>

@@ -1,0 +1,20 @@
+<div class="login">
+  <div class="m-home">
+      <header>
+        <ul>
+          <li></li>
+          <li>登录</li>
+          <li></li>
+        </ul>
+      </header>
+      <section>
+        <div class="resign">
+          <h3>我已有账号：</h3>
+          <input class="txt" type="text" placeholder="手机号/用户名"/>
+          <input class="psd" type="password" placeholder="密码"/>
+          <input action-type="send" class="btn" type="button" value="登录"/>
+          <p>请填写完整</p>
+        </div>
+      </section>
+  </div>
+</div>

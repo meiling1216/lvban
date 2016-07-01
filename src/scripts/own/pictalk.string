@@ -1,7 +1,11 @@
 
     <header>
       <ul>
+<<<<<<< HEAD
         <li><img src="/lvban/images/list_ios7__pink.png"/></li>
+=======
+        <li action-type="goto.menu"><img src="/lvban/images/list_ios7__pink.png"/></li>
+>>>>>>> 20160628-lvban-login
         <li>图说&微游记</li>
         <li><img src="/lvban/images/postnew__ios7__blue.png" alt=""></li>
         <li action-type="new"><img src="/lvban/images/refresh__ios7__blue.png"/></li>
@@ -68,22 +72,22 @@
           <dl>
             <dt>我的三峡行</dt>
             <dd>
-              <img src="images/22.jpg"/>
+              <img src="/lvban/images/22.jpg"/>
               <div></div>
-              <img src="images/23.jpg"/>
+              <img src="/lvban/images/23.jpg"/>
               <div></div>
-              <img src="images/24.jpg"/>
+              <img src="/lvban/images/24.jpg"/>
             </dd>
-            <span>2015-01-23<img src="images/tiny_hits__ios7__pink.png"/><i></i></span>
+            <span>2015-01-23<img src="/lvban/images/tiny_hits__ios7__pink.png"/><i></i></span>
           </dl>
         </div>
         <div class="list">
           <dl>
             <dt>我的三峡行</dt>
             <dd>
-              <img src="images/22.jpg"/>
+              <img src="/lvban/images/22.jpg"/>
               <div></div>
-              <img src="images/23.jpg"/>
+              <img src="/lvban/images/23.jpg"/>
               <div></div>
               <img src="/lvban/images/24.jpg"/>
             </dd>

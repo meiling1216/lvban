@@ -14,3 +14,4 @@ require('./views/resign.js');
 require('./views/deteil.js');
 require('./views/pictalk.js');
 require('./views/menu.js');
+require('./views/login.js');

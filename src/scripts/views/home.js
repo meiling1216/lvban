@@ -5,8 +5,10 @@ SPA.defineView('home', {
     name:'avalon',
     options:function(vm){
       vm.livelist=[];
+      vm.isShowLoading = true;
     }
   }],
+
   init:{
     formatData:function(arr){
       var tempArr=[];
@@ -55,24 +57,27 @@ SPA.defineView('home', {
           rtype:'refresh'
         },
         success:function(rs){
-          that.tempArr=rs.data;
-          vm.livelist=that.formatData(rs.data);
+          // setTimeout(function(){
+            that.tempArr=rs.data;
+            vm.livelist=that.formatData(rs.data);
+            vm.isShowLoading = false;
+          // },3000)
+
         }
       });
     },
     'show':function(){
-
       var that=this;
       var vm=this.getVM();
       //下拉刷新上拉加载更多
       var scrollSize=50;
       var myScroll=this.widgets.scrolled;
-      myScroll.scrollBy(0, -scrollSize);
+       myScroll.scrollBy(0, -scrollSize);
 
-      var head=$('.head img'),
-          topImgHasClass=head.hasClass('up');//判断有没有这个class
-      var foot = $('.foot img'),
-          bottomImgHasClass = head.hasClass('down');
+        var head=$('.head img'),
+            topImgHasClass=head.hasClass('turn');//判断有没有这个class
+        var foot = $('.foot img'),
+            bottomImgHasClass = head.hasClass('turn');
       myScroll.on('scroll',function(){
          var maxY=this.maxScrollY-this.y;
          if (this.y>= 0) {
@@ -80,7 +85,7 @@ SPA.defineView('home', {
              return '';
          }
          if (maxY >= 0) {
-             !bottomImgHasClass && foot.addClass('down');
+             !bottomImgHasClass && foot.addClass('turn');
              return '';
          }
        });
@@ -89,7 +94,7 @@ SPA.defineView('home', {
        myScroll.on('scrollEnd',function(){
          if (this.y >= -scrollSize && this.y < 0) {
               myScroll.scrollTo(0, -scrollSize);
-              head.removeClass('up');
+              head.removeClass('turn');
           } else if (this.y >= 0) {
               head.attr('src', '/lvban/images/ajax-loader.gif');
               // ajax下拉刷新数据
@@ -116,7 +121,7 @@ SPA.defineView('home', {
           var self = this;
           if (maxY > -scrollSize && maxY < 0) {
               myScroll.scrollTo(0, self.maxScrollY + scrollSize);
-              foot.removeClass('down')
+              foot.removeClass('turn')
           } else if (maxY >= 0) {
               foot.attr('src', '/lvban/images/ajax-loader.gif');
               //上拉加载数据
@@ -140,7 +145,7 @@ SPA.defineView('home', {
                }
        });
 
-
+   //
      }
    }
 });

@@ -42,11 +42,10 @@ SPA.defineView('deteil', {
       });
     },
     "show":function(){
-      var m=1;
       var mySwiper = new Swiper ('.swiper-container', {
         loop: false,
         onSlideChangeStart:function (swiper) {
-          var index=swiper.activeindex;
+          var index=swiper.activeIndex;
             $('.top li').eq(1).find('i').html(index+1);
 
         }

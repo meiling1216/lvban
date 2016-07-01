@@ -34,3 +34,6 @@ document.ontouchmove=function(e){
     e.preventDefault();
   }
 }
+setTimeout(function(){
+   $('.first').css('display',"none")
+},2000);

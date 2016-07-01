@@ -2,7 +2,7 @@
       <ul>
         <li></li>
         <li>登录</li>
-        <li><a href="">注册</a></li>
+        <li action-type="goto.resign">注册</li>
       </ul>
     </header>
     <section>
@@ -13,6 +13,6 @@
         <a href=""><img src="/lvban/images/share_sina.png"/>人人网登录</a>
         <a href=""><img src="/lvban/images/share_sina.png"/>QQ登录</a>
         <h3>注册登录：</h3>
-        <input class="btn" type="bottom" value="登录"/>
+        <input class="btn" type="button" value="登录"/>
       </div>
     </section>
