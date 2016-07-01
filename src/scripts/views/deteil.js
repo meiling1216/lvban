@@ -20,8 +20,7 @@ SPA.defineView('deteil', {
   bindEvents:{
 
     "beforeShow":function(){
-      var m=1;
-      $('.top li').eq(1).find('i').html(m);
+      $('.top li').eq(1).find('i').html(1);
       var vm=this.getVM();
       var d=this.param.data;
 
@@ -43,12 +42,11 @@ SPA.defineView('deteil', {
       });
     },
     "show":function(){
-      var m=1;
       var mySwiper = new Swiper ('.swiper-container', {
         loop: false,
         onSlideChangeStart:function (swiper) {
-          m++;
-            $('.top li').eq(1).find('i').html(m);
+          var index = swiper.activeIndex;
+            $('.top li').eq(1).find('i').html(index+1);
 
         }
       })
