@@ -14,11 +14,11 @@
         </div>
         <div class="sec">
           <ul>
-            <li action-type="goto.deteil"  ms-repeat-value="livelist" ms-attr-data-id='value[0].id'><img ms-src="value[0].imgsrc[0]"/><span ms-text="value[0].title"></span><p><img src="images/tiny_hits__ios7__pink.png"/><i ms-text="value[0].num"></i></p></li>
+            <li action-type="goto.deteil"  ms-repeat-value="livelist" ms-attr-data-id='value[0].id'><img ms-src="value[0].imgsrc[0]"/><span ms-text="value[0].title"></span><p><img src="/lvban/images/tiny_hits__ios7__pink.png"/><i ms-text="value[0].num"></i></p></li>
 
           </ul>
           <ul>
-            <li action-type="goto.deteil" ms-repeat-value="livelist" ms-attr-data-id='value[1].id'><img ms-src="value[1].imgsrc[0]"/><span ms-text="value[1].title"></span><p><img src="images/tiny_hits__ios7__pink.png"/><i ms-text="value[1].num"></i></p></li>
+            <li action-type="goto.deteil" ms-repeat-value="livelist" ms-attr-data-id='value[1].id'><img ms-src="value[1].imgsrc[0]"/><span ms-text="value[1].title"></span><p><img src="/lvban/images/tiny_hits__ios7__pink.png"/><i ms-text="value[1].num"></i></p></li>
           </ul>
         </div>
         <div class="foot">

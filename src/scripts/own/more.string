@@ -8,9 +8,9 @@
     </header>
     <section>
       <ul class="more">
-          <li><img src="images/btn_community_like__ios7__pink.png"/><a href="javascript:;">我的喜欢</a></li>
-          <li><img src="images/nav_fix_plugin_cancel__ios7__pink.png"/><a href="javascript:;">给驴伴评分</a></li>
-          <li><img src="images/nav_fix_tougao_cancel__ios7__pink.png"/><a href="javascript:;">热点活动</a></li>
-          <li><img src="images/nav_fix_setting_cancel__ios7__pink.png"/><a href="javascript:;">设置</a></li>
+          <li><img src="/lvban/images/btn_community_like__ios7__pink.png"/><a href="javascript:;">我的喜欢</a></li>
+          <li><img src="/lvban/images/nav_fix_plugin_cancel__ios7__pink.png"/><a href="javascript:;">给驴伴评分</a></li>
+          <li><img src="/lvban/images/nav_fix_tougao_cancel__ios7__pink.png"/><a href="javascript:;">热点活动</a></li>
+          <li><img src="/lvban/images/nav_fix_setting_cancel__ios7__pink.png"/><a href="javascript:;">设置</a></li>
       </ul>
     </section spa-widget="scroll">

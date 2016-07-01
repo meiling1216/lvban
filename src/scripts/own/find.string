@@ -9,10 +9,10 @@
         <section>
           <div class="login">
             <h3>可用社交账号登录：</h3>
-            <a href="javascript:;"><img src="images/share_sina.png"/>新浪微博登录</a>
-            <a href="javascript:;"><img src="images/sns_tengxun_active__ios7.png"/>腾讯微博登录</a>
-            <a href="javascript:;"><img src="images/share_renren.png"/>人人网登录</a>
-            <a href="javascript:;"><img src="images/sns_qq_active__ios7.png"/>QQ登录</a>
+            <a href="javascript:;"><img src="/lvban/images/share_sina.png"/>新浪微博登录</a>
+            <a href="javascript:;"><img src="/lvban/images/sns_tengxun_active__ios7.png"/>腾讯微博登录</a>
+            <a href="javascript:;"><img src="/lvban/images/share_renren.png"/>人人网登录</a>
+            <a href="javascript:;"><img src="/lvban/images/sns_qq_active__ios7.png"/>QQ登录</a>
             <h3>注册登录：</h3>
             <input class="btn" type="button" value="登录"/>
           </div>
