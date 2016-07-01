@@ -1,7 +1,7 @@
 <div class="deteil" >
   <header>
     <ul class="top">
-      <li action-type="return"><img src="images/article_back_ios7__pink.png"></li>
+      <li action-type="return"><img src="/lvbaimages/article_back_ios7__pink.png"></li>
       <li><i></i>/<span ms-text="num"></span></li>
       <li></li>
     </ul>
@@ -34,10 +34,10 @@
   </section>
   <footer>
     <ul>
-      <li><img src="//lvban/lvban/images/img_viewer_like__ios7.png"/><img class="none" src="/lvban/images/btn_community_like_active.png"><b ms-text="praise"></b></li>
-      <li><img src="//lvban/lvban/images/img_viewer_share__ios7.png"/><img class="none" src="/lvban/images/nav_fix_chatting_select__ios7__pink.png"/><b></b></li>
-      <li><img src="//lvban/lvban/images/img_viewer_comment__ios7.png"/><img class="none" src="/lvban/images/nav_fix_search_select__ios7__pink.png"/><b  ms-text="discuss"></b></li>
-      <li><img src="//lvban/lvban/images/img_viewer_more__ios7.png"/><img class="none" src="/lvban/images/nav_fix_more_select__ios7__pink.png"/><b></b></li>
+      <li><img src="/lvban/images/img_viewer_like__ios7.png"/><img class="none" src="/lvban/images/btn_community_like_active.png"><b ms-text="praise"></b></li>
+      <li><img src="/lvban/images/img_viewer_share__ios7.png"/><img class="none" src="/lvban/images/nav_fix_chatting_select__ios7__pink.png"/><b></b></li>
+      <li><img src="/lvban/images/img_viewer_comment__ios7.png"/><img class="none" src="/lvban/images/nav_fix_search_select__ios7__pink.png"/><b  ms-text="discuss"></b></li>
+      <li><img src="/lvban/images/img_viewer_more__ios7.png"/><img class="none" src="/lvban/images/nav_fix_more_select__ios7__pink.png"/><b></b></li>
     </ul>
   </footer>
 

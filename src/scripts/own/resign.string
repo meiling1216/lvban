@@ -9,7 +9,7 @@
   <div class="m-home">
       <header>
         <ul>
-          <li action-type="return"><img src="images/article_back_ios7__pink.png"/></li>
+          <li action-type="return"><img src="/lvban/images/article_back_ios7__pink.png"/></li>
           <li>注册</li>
           <li></li>
         </ul>
